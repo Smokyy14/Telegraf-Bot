@@ -23,7 +23,8 @@ npm run dev
 This will install all the necessary dependencies and start the bot.
 
 3. 🔑 Set up your Telegram Bot Token in the `.env` file
-Write to this user on Telegram to create your own bot and generate your token. [Bot Father](https://t.me/BotFather)
+
+Write to [Bot Father](https://t.me/BotFather) on Telegram to create your own bot and generate your token.
 
 ## 📖 Usage
 
