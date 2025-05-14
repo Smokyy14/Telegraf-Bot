@@ -17,6 +17,7 @@ A Telegram bot built with JavaScript to interact with users and provide various 
 npm run dev
 ```
 This will install all the necessary dependencies and start the bot.
+
 3. 🔑 Set up your Telegram Bot Token in the `.env` file
 
 ## 📖 Usage
