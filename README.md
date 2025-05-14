@@ -12,6 +12,10 @@ A Telegram bot built with JavaScript to interact with users and provide various 
 ## 🚀 Installation
 
 1. 📥 Clone the repository
+```bash
+git clone https://github.com/Smokyy14/Telegraf-Bot.git
+cd Telegraf-Bot
+``` 
 2. 📦 Run the bot:
 ```bash
 npm run dev
