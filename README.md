@@ -12,15 +12,12 @@ A Telegram bot built with JavaScript to interact with users and provide various 
 ## 🚀 Installation
 
 1. 📥 Clone the repository
-2. 📦 Install required dependencies:
-```bash
-npm install
-```
-3. 🔑 Set up your Telegram Bot Token in the `.env` file
-4. 🏃‍♂️ Run the bot:
+2. 📦 Run the bot:
 ```bash
 npm run dev
 ```
+This will install all the necessary dependencies and start the bot.
+3. 🔑 Set up your Telegram Bot Token in the `.env` file
 
 ## 📖 Usage
 
@@ -38,9 +35,8 @@ BOT_TOKEN = "your_bot_token"
 
 ## 📚 Dependencies
 
-- 📱 node-telegram-bot-api
-- 🔐 dotenv
-- 🌐 axios
+- 📱 telegraf
+- 🔐 nodemon 
 
 ## 📄 License
 
