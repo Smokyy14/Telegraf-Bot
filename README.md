@@ -1,4 +1,4 @@
-# 🤖 MoonBot Telegram Bot
+# 🤖 Telegram Bot
 
 A Telegram bot built with JavaScript to interact with users and provide various functionalities.
 
