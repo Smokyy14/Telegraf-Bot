@@ -1,88 +1,51 @@
-# Telegram-Bot
-A simple Telegram bot built with JavaScript and powered by Telegraf.
+# MoonBot Telegram Bot
 
-## 📌 Overview
-This repository contains a lightweight and functional base for a Telegram bot using the Telegraf library.
-It focuses on simplicity and is ideal for small projects or as a starting point for more complex bots. The bot can respond to messages, execute basic commands like `/menu`, and display a list of available features.
+A Telegram bot built with JavaScript to interact with users and provide various functionalities.
 
-## 🔧 Features
-* 🤖 Telegram bot using Telegraf
-* 🧱 Minimal and easy-to-read code structure
-* 💬 Responds to `/start`, "Ping", and `/menu` commands
-* 🔄 Auto-reloads with `nodemon` on file changes
-* 🚀 **Getting Started**
-    1. Clone the repository
-    ```bash
-    git clone [https://github.com/Smokyy14/Telegram-Bot.git](https://github.com/Smokyy14/Telegram-Bot.git)
-    cd Telegram-Bot
-    ```
-    2. Install dependencies
-    ```bash
-    npm install
-    ```
-    3. Start the bot in development mode
-    ```bash
-    npm run dev
-    ```
-    This will start the bot using `nodemon`, which auto-restarts when changes are detected.
+## Features
 
-## 📂 Project Structure
+- Command-based interaction system
+- Message handling and responses
+- Customizable bot settings
+- Asynchronous message processing
+
+## Installation
+
+1. Clone the repository
+2. Install required dependencies:
 ```bash
-Telegram-Bot/
-├── commands/          # Commands organized by category
-│   └── general/       # Includes /menu command
-├── bot.js             # Main entry point of the bot
-├── package.json       # Project metadata and dependencies
-└── README.md          # This file
-
-## 📖 Example Commands
-- /start
-Greets the user with a welcome message.
-
-- Ping ( without slash )
-Replies with Pong! without needing a slash command.
-
-- /menu
-Displays the list of available commands.
-
-## 🧩 Adding New Commands
-- To add a new command:
-
-Create a .js file inside commands/general/.
-Export an object with an execute function. Example:
-
-```JavaScript
-// commands/general/hello.js
-module.exports = {
-  execute(ctx) {
-    ctx.reply("Hello there!");
-  }
-};
+npm install
+```
+3. Set up your Telegram Bot Token in the `.env` file
+4. Run the bot:
+```bash
+npm run dev
 ```
 
-Then register it in bot.js like this:
-JavaScript
+## Usage
 
-const hello = require("./commands/general/hello");
-bot.command("hello", (ctx) => hello.execute(ctx));
-🧪 Contributing
-Have suggestions or want to improve it?
+Available commands:
+- `/start` - Start the bot
+- `/help` - Show help menu
+- Other custom commands as configured
 
-Fork the repo
-Create your feature branch:
-Bash
+## Configuration
 
-git checkout -b my-feature
-Commit your changes:
-Bash
+Create a `.env` file with your settings:
+```
+BOT_TOKEN = "Your_Token_Bot"
+```
 
-git commit -m 'Add some feature'
-Push to your branch and open a pull request
-📄 License
-This project is licensed under the MIT License. Feel free to use and modify it for your own projects.
+## Dependencies
 
-📬 Contact
-Email: fdsmdfr985@gmail.com
-Twitter: @StarsOnThaSky
+- node-telegram-bot-api
+- dotenv
+- axios
 
-Made with ❤️ for developers who want to create simple bots quickly and easily.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
