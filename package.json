@@ -1,0 +1,18 @@
+{
+  "name": "Telegram-Bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "npm install && nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "Smokyy14",
+  "license": "ISC",
+  "description": "A simple Telegram bot that responds to messages.",
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9" 
+  }
+}
