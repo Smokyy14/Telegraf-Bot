@@ -35,7 +35,7 @@ Available commands:
 
 ## ⚙️ Configuration
 
-Create a `.env` file with your settings:
+Change your `.env` file with your settings:
 ```
 BOT_TOKEN = "your_bot_token"
 ```
